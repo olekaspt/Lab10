@@ -3,22 +3,25 @@
 ## Objective:
 The objective of this Lab is to explore creating and using Hash Tables.
 
+For this lab implement this using Smart Pointers and using Templates.
 
 ## Task 1:  Create a Hash Table that uses linear probing.
-Design and implement a Hash Table class using linear probing as described in class.  The data type being stored is expected to be the string representative of the key.  Key = 1234, value is “1234”.
+Design and implement a Hash Table class using linear probing as described in class.  
+The data type being stored is to be Template, and the key will be a int.  For the purpose of this lab you can just have the stored value be the string representation of the key.  For example-  Key = 1234, value is “1234”.
 
+1. Data Node
   *	The data type being stored will be a class with the following public members.  You may create any additional members are desired/required.
   *	int key.
-  *	Node data.  This should be a string representation of the key.
+  *	Node data.  This will be a template.
 1.	The HashTable class should have the following methods fully implemented.
-  *	Constructor –  No default constructor.  The construsctor will have an input indicating the maximum number of items the Hash table can store.  The default value is 100.
+  *	Constructor –  No default constructor.  The construsctor will have an input indicating the maximum number of items the Hash table can store.  
   *	Hash – This should be a private function that accepts a int and returns an int.  But for testing purposes make it public. For this, we are going to take the modulus by the maximum size of the table.
   *	AddItem – adds an item to list.
   *	GetItem – searches the list for a given item.  If found, it returns a pointer to the item but doesn’t remove it from the list.
   *	GetItemsInDictionary – returns an int indicating the number of items in the table.
   *	Destructor
-2.	All items passed to or from the class should be done so via a pointer rather than by value.
-3.	Make sure you don’t have any memory leaks.
+2.	All items passed to or from the class should be done so via a pointer rather than by value.  I.e. GetItem should return a pointer to the Data Node, and not a copy of it.
+
 
 ## Task 2:  Create unit test your Hash class including all functions (except constructor and destructor).
 Additionally Provide Unit Tests as well, with rule of thumb at least 2 per method in Task 1 except constructor and destructor.
