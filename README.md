@@ -29,7 +29,13 @@ Additionally Provide Unit Tests as well, with rule of thumb at least 2 per metho
 ## Task 3:  Modify your program from the Heaps and Priority Queue lab to test the performance of adding 500, 1,000, 2,000, and 5,000 random items to both the Hash class.  
 The Hash should be sized to hold 150% of the maximum number of items being stored.  Record your results in the lab report.
  
-## Task 4:  Rerun the Hash portion of task 3 with the Hash sized to hold 100%, 200% and 500% of the maximum number of items being stored. 
+## Task 4:  Rerun the Hash portion of task 3 with the Hash sized to hold 100%, 200%, and 500% of the maximum number of items being stored. 
+Record your results and discuss the speed differences of differently sized hash tables.
+
+## Task 5:  Bad Hash function
+Change the hash function to be really bad, for example always return 0.
+
+Rerun the Hash portion of task 3 with the Hash sized to hold 100%, 150%, 200%, and 500% of the maximum number of items being stored. 
 Record your results and discuss the speed differences of differently sized hash tables.
 
 ## Lab Submission:
