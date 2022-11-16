@@ -18,7 +18,7 @@ The data type being stored is to be Template, and the key will be a int.  For th
   *	Hash – This should be a private function that accepts a int and returns an int.  But for testing purposes make it public. For this, we are going to take the modulus by the maximum size of the table.
   *	AddItem – adds an item to list.
   *	GetItem – searches the list for a given item.  If found, it returns a pointer to the item but doesn’t remove it from the list.
-  *	GetItemsInDictionary – returns an int indicating the number of items in the table.
+  *	Contains – returns an int indicating the number of items in the table.
   *	Destructor
 2.	All items passed to or from the class should be done so via a pointer rather than by value.  I.e. GetItem should return a pointer to the Data Node, and not a copy of it.
 
