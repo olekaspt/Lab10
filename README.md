@@ -35,7 +35,7 @@ Record your results and discuss the speed differences of differently sized hash 
 ## Task 5:  Bad Hash function
 Change the hash function to be really bad, for example always return 0.
 
-Rerun the Hash portion of task 3 with the Hash sized to hold 100%, 150%, 200%, and 500% of the maximum number of items being stored. 
+Rerun the Hash portion of task 3 with the Hash sized to hold 150% of the maximum number of items being stored. 
 Record your results and discuss the speed differences of differently sized hash tables.
 
 ## Lab Submission:
