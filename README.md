@@ -15,7 +15,7 @@ The data type being stored is to be Template, and the key will be a int.  For th
   *	Node data.  This will be a template.
 1.	The HashTable class should have the following methods fully implemented.
   *	Constructor –  No default constructor.  The construsctor will have an input indicating the maximum number of items the Hash table can store.  
-  *	Hash – This should be a private function that accepts a int and returns an int.  But for testing purposes make it public. For this, we are going to take the modulus by the maximum size of the table.
+  *	Hash – This should normally is private function that accepts a int and returns an int.  But for testing purposes make it public. For this, we are going to take the modulus by the maximum size of the table.
   *	AddItem – adds an item to list.
   *	GetItem – searches the list for a given item.  If found, it returns a pointer to the item but doesn’t remove it from the list.
   *	Contains – returns an int indicating the number of items in the table.
