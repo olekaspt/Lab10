@@ -18,13 +18,13 @@ The data type being stored is to be Template, and the key will be a int.  For th
   *	Hash – This should normally is private function that accepts a int and returns an int.  But for testing purposes make it public. For this, we are going to take the modulus by the maximum size of the table.
   Normally we would depend upon the hash function being defined for the class type.  But in this case we are going to cheat and force it be int, but keep the Template declations.  So use this as your Hash method.
   
-	  template<class keyType, class valueType> int hash_table<keyType,valueType>::hash(keyType& key)
-	  {
-	      //take keytype casted to an int and modulus with max size
-	      int return_value;
-	      int temp = (int)key;
-	      return_value = temp % max_size;
-	  }
+  template<class keyType, class valueType> int hash_table<keyType,valueType>::hash(keyType& key)
+  {
+    //take keytype casted to an int and modulus with max size
+    int return_value;
+    int temp = (int)key;
+    return_value = temp % max_size;
+   }
   
   
   *	AddItem – adds an item to list.
