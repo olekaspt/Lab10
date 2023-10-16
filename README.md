@@ -1,5 +1,8 @@
 # Lab10
 
+Must follow standards cited here:
+https://github.com/olekaspt/LabStandards/blob/main/README.md
+
 ## Objective:
 The objective of this Lab is to explore creating and using Hash Tables.
 
