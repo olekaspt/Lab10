@@ -54,7 +54,8 @@ Record your results and discuss the speed differences of differently sized hash 
 
 ## Lab Submission:
 1.	Write a lab report including the following information:
-*	The sections from each task indicated to be included in the lab report. 
+*	The sections from each task indicated to be included in the lab report.
+*	Graph your results.
 * Participation Rubric
 *	Include a discussion of why you think the results for Task 4 were what they were.  This should suggest ideas for further investigation.
 Participation rubric of teammates.  List out for your all team members how much they participated.  This will go into your Lab report.
