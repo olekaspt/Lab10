@@ -8,6 +8,8 @@ The objective of this Lab is to explore creating and using Hash Tables.
 
 For this lab implement this using Smart Pointers and using Templates.
 
+Since this template based, do not created a shared library.
+
 ## Task 1:  Create a Hash Table that uses linear probing.
 Design and implement a Hash Table class using linear probing as described in class.  
 The data type being stored is to be Template, and the key will be a int.  For the purpose of this lab you can just have the stored value be the string representation of the key.  For example-  Key = 1234, value is “1234”.
