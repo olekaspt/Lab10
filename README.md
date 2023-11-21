@@ -32,7 +32,7 @@ The data type being stored is to be Template, and the key will be a int.  For th
    }
 ```
   
-  *	AddItem – adds an item to list.
+  *	AddItem – adds an item to list.  Do not allow duplicates, otherwise you have to worry about returning a vector of smart pointers for the get case.
   *	GetItem – searches the list for a given item.  If found, it returns a pointer to the item but doesn’t remove it from the list.
   *	Contains – returns an int indicating the number of items in the table.
   *	Destructor
