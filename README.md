@@ -10,6 +10,8 @@ For this lab implement this using Smart Pointers and using Templates.
 
 Since this template based, do not created a shared library.
 
+DECISION POINT DUPLICATES : Decide if you are going to allow duplicate keys or reject them.  If you prevent duplicates, you will make the get case easier.  If you do allow duplicates the the Get method will need to return all items that match that key.
+
 ## Task 1:  Create a Hash Table that uses linear probing.
 Design and implement a Hash Table class using linear probing as described in class.  
 The data type being stored is to be Template, and the key will be a int.  For the purpose of this lab you can just have the stored value be the string representation of the key.  For example-  Key = 1234, value is “1234”.
@@ -32,8 +34,8 @@ The data type being stored is to be Template, and the key will be a int.  For th
    }
 ```
   
-  *	AddItem – adds an item to list.  Do not allow duplicates, otherwise you have to worry about returning a vector of smart pointers for the get case.
-  *	GetItem – searches the list for a given item.  If found, it returns a pointer to the item but doesn’t remove it from the list.
+  *	AddItem – adds an item to list.  SEE DECISION POINT DUPLICATES about duplicates.  If you allow duplicates,  you have to worry about returning a vector of smart pointers for the get case.
+  *	GetItem – searches the list for a given item.  If found, it returns a pointer to the item but doesn’t remove it from the list. SEE DECISION POINT DUPLICATES about duplicates - if you allow duplicates, you will be returning a vector of smart pointers.
   *	Contains – returns an int indicating the number of items in the table.
   *	Destructor
 2.	All items passed to or from the class should be done so via a pointer rather than by value.  I.e. GetItem should return a pointer to the Data Node, and not a copy of it.
